@@ -1,0 +1,25 @@
+.main-hdr {
+    padding: 20px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.main-hdr__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-nav{
+    position: static;
+    display: flex;
+}
+#slct,option{
+    width: 200px;
+    height: 30px;
+}
+#slct,option::after{
+    width: 200px;
+    height: 30px;
+}
+#btn{
+    margin-left: 20px;
+}

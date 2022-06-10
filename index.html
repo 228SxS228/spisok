@@ -4,16 +4,22 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
         <title>Document</title>
     </head>
     <body>
-        <form action="">
-            <label for="">Выбирете мнемосхему</label>
-            <select id="slct">
-                <option value="0">........</option>
-            </select>
-        </form>
-        <button id="btn">Обновить список</button>
+        <header class="main-hdr">
+            <div class="main-hdr__container">
+                <h1>INTEGERIRY SCADA</h1>
+                <div class="main-nav">
+                    <select id="slct">
+                        <option disabled>Выбирете мнемосхему</option>
+                    </select>
+                    <button id="btn">Обновить список</button>
+                </div>
+            </div>
+        </header>
+        <canvas></canvas>
         <script src="./index.js"></script>
     </body>
 </html>
