@@ -1,7 +1,10 @@
+body{
+    background-color: #F3F2F7;
+}
 .main-hdr {
     padding: 20px;
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
-        0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 0 2px #000626, 0.3em 0.3em 1em #000314;
+    background-color: #041160;
 }
 .main-hdr__container {
     display: flex;
@@ -12,11 +15,11 @@
     position: static;
     display: flex;
 }
-#slct,option{
-    width: 200px;
-    height: 30px;
+h1{
+    color: white;
+    text-shadow: -1px -1px 0 #041160, 1px -1px 0 #041160, -1px 1px 0 #041160, 1px 1px 0 #041160;
 }
-#slct,option::after{
+#slct,option{
     width: 200px;
     height: 30px;
 }

@@ -47,10 +47,3 @@ btn.addEventListener("click", function () {
 //             }
 //         })
 // });
-
-
-function sqr(num){
-    return console.log(num*num);
-};
-
-sqr(44);
